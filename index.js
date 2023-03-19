@@ -3,7 +3,7 @@ import { API_KEY } from "./config.js";
 const options = {
   method: "GET",
   headers: {
-    "X-RapidAPI-Key": process.env.API_KEY,
+    "X-RapidAPI-Key": API_KEY,
     "X-RapidAPI-Host": "imdb8.p.rapidapi.com",
   },
 };
